@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="target/generated-sources/annotations">
+		<attributes>
+			<attribute name="ignore_optional_problems" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="m2e-apt" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="target/generated-test-sources/test-annotations">
+		<attributes>
+			<attribute name="ignore_optional_problems" value="true"/>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="m2e-apt" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-16">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/apache-tomcat-9.0.46">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/ApacheWinkJAXRSLibrary/activation-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/ApacheWinkJAXRSLibrary/commons-cli-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/ApacheWinkJAXRSLibrary/commons-lang-2.3.jar"/>
+	<classpathentry kind="lib" path="D:/ApacheWinkJAXRSLibrary/geronimo-j2ee_1.4_spec-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/ApacheWinkJAXRSLibrary/jaxb-api-2.1.jar"/>
+	<classpathentry kind="lib" path="D:/ApacheWinkJAXRSLibrary/jaxb-impl-2.1.4.jar"/>
+	<classpathentry kind="lib" path="D:/ApacheWinkJAXRSLibrary/jcl-over-slf4j-1.5.6.jar"/>
+	<classpathentry kind="lib" path="D:/ApacheWinkJAXRSLibrary/json-20080701.jar"/>
+	<classpathentry kind="lib" path="D:/ApacheWinkJAXRSLibrary/jsr311-api-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/ApacheWinkJAXRSLibrary/slf4j-api-1.5.8.jar"/>
+	<classpathentry kind="lib" path="D:/ApacheWinkJAXRSLibrary/slf4j-simple-1.5.8.jar"/>
+	<classpathentry kind="lib" path="D:/ApacheWinkJAXRSLibrary/spring-2.5.jar"/>
+	<classpathentry kind="lib" path="D:/ApacheWinkJAXRSLibrary/stax-api-1.0-2.jar"/>
+	<classpathentry kind="lib" path="D:/ApacheWinkJAXRSLibrary/wink-client-0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="D:/ApacheWinkJAXRSLibrary/wink-client-apache-httpclient-0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="D:/ApacheWinkJAXRSLibrary/wink-common-0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="D:/ApacheWinkJAXRSLibrary/wink-sdk-0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="D:/ApacheWinkJAXRSLibrary/wink-server-0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="D:/ApacheWinkJAXRSLibrary/wink-spring-support-0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="D:/ApacheWinkJAXRSLibrary/wink-webdav-0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="D:/ApacheWinkJAXRSLibrary/xercesImpl-2.6.2.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
