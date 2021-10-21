@@ -4,11 +4,14 @@ import java.sql.*;
 import javax.swing.JOptionPane;
 
 
+
 public class ConectorBBDDMySql {
 	   static final String DB_URL = "jdbc:mysql://localhost/pruebascursojavaspringboot";
 	   static final String USER = "root";
 	   static final String PASS = "";
 	   static final String QUERY = "SELECT * from alumnos";
+	   
+	   private static Connection conection;
 
 	   public static void main(String[] args) {
 	      // Open a connection
@@ -26,7 +29,7 @@ public class ConectorBBDDMySql {
 	   }
 	
 	   
-	   public boolean conectar() {
+	   public static boolean conectar() {
 		   boolean f = true;
 		   String salida ="";
 		      try(Connection conn = DriverManager.getConnection(DB_URL, USER, PASS);
@@ -50,4 +53,11 @@ public class ConectorBBDDMySql {
 		      
 		 	   }
 	   
+		
+		public static void desConectar() throws SQLException{
+			conection.close();
+		}
+		public static Connection getConection(){
+			return conection;
+		}
 }
